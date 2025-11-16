@@ -1,0 +1,44 @@
+==========================================
+INSTRUCTIONS POUR AJOUTER LES IMAGES DES PROJETS
+==========================================
+
+Ajoutez vos images de projets dans ce dossier avec les noms suivants :
+
+1. truenas.jpg       - Image pour le projet TrueNAS
+2. ecommerce.jpg     - Image pour le projet e-commerce
+3. network.jpg       - Image pour le projet architecture réseau
+4. asterisk.jpg      - Image pour le projet Asterisk CDR
+5. other.jpg         - Image pour la section "Autres projets"
+
+==========================================
+RECOMMANDATIONS
+==========================================
+
+Format : JPG ou PNG
+Taille recommandée : 800x600px minimum
+Qualité : Optimisez les images pour le web (taille de fichier réduite)
+
+==========================================
+IMAGES MANQUANTES
+==========================================
+
+Si une image n'est pas disponible :
+- Un placeholder automatique s'affichera
+- Vous pouvez utiliser des services comme :
+  * Unsplash.com (images libres de droits)
+  * Placeholder.com (placeholders)
+  * Pexels.com (photos libres)
+
+==========================================
+MODIFIER LES CHEMINS
+==========================================
+
+Si vous utilisez d'autres noms d'images, modifiez index.html :
+
+Exemple (ligne ~180) :
+<img src="assets/img/truenas.jpg" alt="Configuration TrueNAS" loading="lazy">
+
+Remplacez "truenas.jpg" par le nom de votre fichier.
+
+==========================================
+

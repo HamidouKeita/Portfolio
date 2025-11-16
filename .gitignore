@@ -1,0 +1,26 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers de configuration éditeur
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers temporaires
+*.tmp
+*.log
+*.cache
+
+# Fichiers de backup
+*.bak
+*.backup
+
+# Ne pas ignorer les fichiers nécessaires au projet
+!assets/
+!index.html
+!README_fr.md
+

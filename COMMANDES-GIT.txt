@@ -1,0 +1,45 @@
+==========================================
+COMMANDES À EXÉCUTER DANS POWERSHELL
+==========================================
+
+Ouvrez PowerShell dans le dossier portfolio et exécutez ces commandes UNE PAR UNE :
+
+1. Vérifier que Git fonctionne :
+   git --version
+
+2. Initialiser Git :
+   git init
+
+3. Ajouter tous les fichiers :
+   git add .
+
+4. Créer le premier commit :
+   git commit -m "Initial commit - Portfolio Hamidou Keita"
+
+5. Renommer la branche en 'main' :
+   git branch -M main
+
+6. Créer le dépôt sur GitHub :
+   - Allez sur : https://github.com/new
+   - Nommez-le (ex: "portfolio")
+   - Choisissez Public
+   - NE cochez PAS "Initialize with README"
+   - Cliquez sur "Create repository"
+
+7. Ajouter le dépôt GitHub (REMPLACEZ par votre URL) :
+   git remote add origin https://github.com/VOTRE-USERNAME/VOTRE-REPO.git
+
+8. Envoyer sur GitHub :
+   git push -u origin main
+
+==========================================
+IMPORTANT
+==========================================
+
+- Lors du git push, GitHub vous demandera vos identifiants
+- Utilisez votre nom d'utilisateur GitHub
+- Pour le mot de passe, utilisez un "Personal Access Token"
+  (créez-en un sur : https://github.com/settings/tokens)
+
+==========================================
+
