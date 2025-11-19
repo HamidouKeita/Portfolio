@@ -21,22 +21,22 @@
 }
 
 [data-theme="dark"] {
-    /* Palette sombre */
-    --bg-primary: #1a1a1a;
-    --bg-secondary: #2d2d2d;
-    --bg-tertiary: #3a3a3a;
-    --text-primary: #ffffff;
-    --text-secondary: #b0b0b0;
-    --accent-color: #4dabf7;
-    --accent-hover: #339af0;
-    --accent-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --accent-gradient-alt: linear-gradient(135deg, #4dabf7 0%, #00d4ff 100%);
-    --border-color: #404040;
-    --shadow: rgba(0, 0, 0, 0.3);
-    --shadow-lg: rgba(0, 0, 0, 0.5);
-    --shadow-xl: rgba(0, 0, 0, 0.7);
-    --glow: rgba(77, 171, 247, 0.4);
-    --card-bg: #2d2d2d;
+    /* Palette saumon : la "partie noire" devient saumon */
+    --bg-primary: #FA8072; /* saumon */
+    --bg-secondary: #F7A08E; /* saumon clair */
+    --bg-tertiary: #F3C9C1; /* très clair pour éléments secondaires */
+    --text-primary: #2b1a17; /* texte foncé pour contraste sur saumon */
+    --text-secondary: #5a3b36;
+    --accent-color: #ff6b61;
+    --accent-hover: #ff4a3f;
+    --accent-gradient: linear-gradient(135deg, #ff8a73 0%, #ff6b61 100%);
+    --accent-gradient-alt: linear-gradient(135deg, #ff8a73 0%, #ffd2cc 100%);
+    --border-color: #e6b5aa;
+    --shadow: rgba(0, 0, 0, 0.12);
+    --shadow-lg: rgba(0, 0, 0, 0.18);
+    --shadow-xl: rgba(0, 0, 0, 0.25);
+    --glow: rgba(250, 128, 114, 0.35);
+    --card-bg: #fff0ef;
 }
 
 /* ========================================
@@ -101,7 +101,8 @@ body > * {
 }
 
 [data-theme="dark"] .navbar {
-    background-color: rgba(26, 26, 26, 0.95);
+    /* navbar sombre -> saumon transparent */
+    background-color: rgba(250, 128, 114, 0.95);
 }
 
 .nav-container {
